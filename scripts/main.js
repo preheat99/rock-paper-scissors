@@ -52,6 +52,8 @@ function game() {
         console.log("Player wins! by: " + playerScore + "-" + computerScore);
     } else if (playerScore < computerScore) {
         console.log("Computer wins! by: " + computerScore + "-" + playerScore);
+    } else if (playerScore == computerScore) {
+        console.log("Tie!: " + computerScore + "-" + playerScore);
     }
 }
 
